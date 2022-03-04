@@ -5,3 +5,85 @@
   padding:0;
   box-sizing: border-box;
 }
+html
+
+/* Navbar */
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cadetblue;
+  position: sticky;
+  top:0;
+  
+}
+
+.navbar ul{
+  display: flex;
+  list-style: none;
+  margin: 20px 0px;
+  color: white;
+
+}
+
+.navbar ul li{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.navbar ul li a{
+  color:black;
+  padding: 5px;
+
+}
+
+.navbar ul li a:hover{
+  background-color: rgb(27, 187, 208);
+  color: white;
+}
+
+/*Home Section*/
+#home{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  background-color: whitesmoke;
+  
+}
+  
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top:48%;
+  right: 10%;
+
+}
+.headings{
+  font-family: century;
+  font-size: 50px;
+  text-align:center;
+  margin: 40px 0px;
+
+}
+.btn{
+  padding: 10px 25px;
+  background-color: chocolate;
+  border: 1px solid white;
+  outline: none;
+  transition: 3s ease;
+  font-family: cursive;
+
+}
+.btn:hover{
+  cursor: pointer;
+  background-color: rgba(210, 105, 30, 0.601);
+  color: black;
+  box-shadow: 0 0 px white, 0 0 10px white;
+  font-weight: bold;
+
+}
