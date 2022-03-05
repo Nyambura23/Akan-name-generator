@@ -11,7 +11,7 @@ html
   background-image:url(../Images/Sunset\ .jpeg);
   background-size: cover;
   background-position: center;
-  height: 400px;
+  height: 100vh;
 
 }
 
@@ -28,7 +28,7 @@ body{
 .navbar{
   display: flex;
   text-align: center;
-  background-color: rgb(180, 121, 12);
+  background:#926239;
   position: sticky;
   top:0;
   width:100%;
@@ -41,7 +41,7 @@ body{
   display: inline-flex;
   list-style: none;
   margin: auto;
-  color: white;
+  color: rgb(103, 27, 27);
 
 }
 
@@ -70,49 +70,50 @@ body{
 /*Home Section*/
 
 .main{
-  color: white;
+ 
+ color: whitesmoke;
   text-align: center;
-  padding: 50px 5px;
+  padding: 0 20px;
   font-size: 20px;
   font-family: 'Franklin Gothic Medium';
   line-height: 25px;
-}
-
-.banner-btn{
-  margin: 70px auto 0;
-}
-
-.banner-btn a{
-  width: 150px;
-  display: inline-block;
-  margin: 0 10px;
-  padding: 12px 0;
-  color: rgb(180, 121, 12);
-  border: .5px solid ;
-  position: relative;
-  z-index: 1;
-
-}
-.banner-btn a span{
-  width: 0%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background:white;
-  z-index: -1;
-  transition: .5s;
-}
-
-.banner-btn a:hover span {
-  width: 100%;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 
 }
 
+.main h1{
+font-size: 25px;
+font-weight: bold;
 
+}
 
+.main p{
+  font-size: 12px;
+}
 /*About Section*/
+ #about{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium';
+  color:black;
+  text-align: justify;
+
+
+}
+
+.table{
+  background-color: #926239;
+  color: white;
   
+  
+}
 
 /*Name Generator Section*/
+
