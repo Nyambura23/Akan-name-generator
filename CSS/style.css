@@ -53,9 +53,20 @@ body{
   padding: 10px;
   background:rgb(194, 83, 42);
   font-size: 12px;
+}
 
+.table{
+  padding: 10px;
+  background:white;
+  font-size: 12px;
+  align-items: center;
+}
 
-
-
+#Generator{
+  padding: 10px;
+  background:rgb(194, 83, 42);
+  font-size: 12px;
+  border-radius: 10px;
+  align-items: center;
 
 }
