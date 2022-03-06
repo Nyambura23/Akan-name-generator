@@ -27,6 +27,7 @@ body{
 
 #showcase h1{
   font-size: 25px;
+  line-height:0.8 ;
 }
 
 #showcase p{
@@ -37,11 +38,23 @@ body{
   font-size: 15px;
   color: whitesmoke;
   text-decoration: none;
-  color: coral;
-  border: coral 1px solid;
+  color: rgb(194, 83, 42);
+  border: rgb(194, 83, 42) 1px solid;
   padding: 10px 20px;
   border-radius: 10px;
   margin-top: 10px;
+
+}
+#showcase .button:hover{
+  background:rgb(194, 83, 42) ;
+}
+
+#about{
+  padding: 10px;
+  background:rgb(194, 83, 42);
+  font-size: 12px;
+
+
 
 
 
