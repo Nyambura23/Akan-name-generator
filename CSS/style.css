@@ -7,9 +7,10 @@ body{
   margin: 0;
   padding: 0;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.6;
   color: whitesmoke;
+  font-weight: bold;
 }
 #showcase{
   background-image: url(../Images/Sunset\ .jpeg);
@@ -38,11 +39,12 @@ body{
   font-size: 15px;
   color: whitesmoke;
   text-decoration: none;
-  color: rgb(194, 83, 42);
-  border: rgb(194, 83, 42) 1px solid;
+  color: rgb(238, 90, 36);
+  border: rgb(238, 90, 36) 1px solid;
   padding: 10px 20px;
   border-radius: 10px;
   margin-top: 10px;
+  font-weight: bold;
 
 }
 #showcase .button:hover{
