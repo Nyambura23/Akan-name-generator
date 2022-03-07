@@ -94,17 +94,13 @@
             
                   <p>Select your gender: <br></p>
                   <div class="radio">
-                      <label>
-                        Female
-                      </label>
-                      <input type="radio" name="gender" value="female" checked>
+                    <select name="gender" id="gender">
+                      <option value="none" selected disabled hidden>Select gender</option>
+                      <option value="male">Male</option>
+                      <option value="female">Female</option>
+                    </select>
                   </div>
-                  <div class="radio">
-                      <label>
-                        Male
-                  </label>
-                  <input type="radio" name="gender" value="male">
-                  </div>
+                 
             
                   <input type="submit" id="submit" value="Submit">
               </form>

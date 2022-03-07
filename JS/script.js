@@ -19,14 +19,34 @@ if(date <= 0 || date >31){
   alert("invalid date")
   return
 }
+let gender=document.getElementById("gender")
+let genderOption=gender.options[gender.selectedIndex].value
+if (genderOption =="none"){
+  alert("Please select gender")
+  return
+}
+//console.log(genderOption)
+
 let bd=year+"-"+month+"-"+date
 let d=new Date(bd)
 let dy=d.getDay()
-console.log(dy)
 
-
-
-console.log(year, month, date)
+if(genderOption =="male"){
+  for(let i=0;i<male.length;i++){
+    if(parseInt(dy)==i){
+      alert("My Akan Name is; " + male[i])
+      return
+    }
+  }
+}else{
+  for(let i=0;i<female.length;i++){
+    if(parseInt(dy)==i){
+      alert("My Akan Name is; " + female[i])
+      return
+    }
+  }
+}
+//console.log(year, month, date)
 }
 
 submit.addEventListener("click", checkAkanName)
