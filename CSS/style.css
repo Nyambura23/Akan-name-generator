@@ -30,7 +30,7 @@ body {
 }
 
 #showcase p {
-  font-size: 12px;
+  font-size: 15px;
 }
 
 #showcase .button {
@@ -51,14 +51,18 @@ body {
 #about {
   padding: 10px;
   background: rgb(194, 83, 42);
-  font-size: 12px;
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  align-items: center;
 }
 
 .table {
   padding: 10px;
   background: white;
-  font-size: 12px;
+  font-size: 15px;
   align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #Generator {
