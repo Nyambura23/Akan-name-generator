@@ -72,11 +72,14 @@ body {
   border-radius: 10px;
   align-items: center;
   text-align: center;
+
+
 }
 
 legend {
   text-align: center;
   color: whitesmoke;
+  align-items: center;
 }
 
 input[type="number"],
@@ -115,7 +118,7 @@ input[type="submit"]:hover {
   }
 
   .box {
-    width: 80%;
+    width: 100%;
     font-size: 25px;
     padding: 20px;
   }
